@@ -1,0 +1,19 @@
+[package]
+name = "zed_notes_plugin"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.1.0"                        # Check for the latest version from Zed's docs
+walkdir = "2"
+age = "0.9"
+rand = "0.8"
+chrono = "0.4"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+once_cell = "1.19"
+anyhow = "1.0"
+dirs = "5.0"
