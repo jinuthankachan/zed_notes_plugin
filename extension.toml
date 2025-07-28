@@ -1,0 +1,7 @@
+id = "zed-notes-plugin"
+name = "Encrypted Notes"
+version = "0.1.0"
+schema_version = 1
+authors = ["Jinu"]
+description = "A note-taking plugin that encrypts notes on disk and syncs them to Git"
+repository = "https://github.com/jinuthankachan/zed_notes_plugin"
